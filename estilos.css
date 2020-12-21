@@ -1,0 +1,87 @@
+body {
+  border: 1px solid red;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%), transparent 100%;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: auto;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header-menu {
+  display: flex;
+  gap: 30px;
+}
+.header-menu a {
+  color: black;
+  text-decoration: none;
+}
+.section-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.body-icons {
+  display: flex;
+  align-items: flex-start;
+  /* line-height: flex-start; */
+}
+.parrafo-principal p {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 80px;
+  width: 650px;
+  margin: 0;
+}
+.cruiser-carving-downhill {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.cruiser-carving-downhill p {
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin-top: 50px;
+  color: white;
+}
+.footer-menu {
+  display: flex;
+  gap: 80px;
+}
+.cruiser {
+  width: 632px;
+  height: 224px;
+}
+.carving {
+  width: 632px;
+  height: 224px;
+}
+.downhill {
+  width: 632px;
+  height: 224px;
+}
+.background {
+  background-image: url('images/MG.png');
+  background-repeat: no-repeat;
+  background-image: ;
+  object-fit: cover;
+  background-size: 1450px;
+  height: 1800px;
+}
+h3 {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0;
+}
